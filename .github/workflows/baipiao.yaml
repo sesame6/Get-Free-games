@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     #定时触发器
-    #每隔三天 上午6时22分 触发任务
-    - cron: 22 6 */3 * *
+    #每隔四天 上午6时22分 触发任务
+    - cron: 22 6 */4 * *
  
   push:
     branches: [main]
